@@ -106,13 +106,13 @@ namespace CalendarApplet {
             popover = new Budgie.Popover (widget);
 
             day_of_week_header = new Gtk.Label ("");
-            day_of_week_header.get_style_context ().add_class ("h2");
+            day_of_week_header.get_style_context ().add_class ("h1");
             day_of_week_header.set_halign (Gtk.Align.START);
             day_of_week_header.margin_bottom = 6;
             day_of_week_header.margin_start = 6;
 
             date_header = new Gtk.Label ("");
-            date_header.get_style_context ().add_class ("h2");
+            date_header.get_style_context ().add_class ("h1");
             date_header.set_halign (Gtk.Align.START);
             date_header.margin_start = 6;
             date_header.margin_bottom = 12;
